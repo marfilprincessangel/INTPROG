@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f8c8dc; 
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+header {
+  background: #eaadcf;
+  padding: 2.8rem 2rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: white;
+}
+
+h1 span {
+  color: #ffe6f0;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  color: #ffe6f0;
+  font-size: 1.1rem;
+}
+
+.accent-line {
+  width: 100px;
+  height: 4px;
+  background: white;
+  margin: 1.2rem auto 0;
+  border-radius: 2px;
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.request-panel {
+  max-width: 640px;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.search-form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.request-panel input {
+  min-width: 0;
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d493b8;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.post-form {
+  margin-top: 1rem;
+}
+
+.post-form textarea {
+  min-width: 0;
+  width: 100%;
+  resize: vertical;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d493b8;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.post-feedback {
+  margin-top: 0.8rem;
+}
+
+.request-panel button {
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  border-radius: 6px;
+  background: #7d285c;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  justify-content: center;
+}
+
+.member-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(70, 13, 44, 0.2);
+}
+
+.photo-wrapper {
+  height: 260px;
+  overflow: hidden;
+}
+
+.photo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.member-card:hover .photo-wrapper img {
+  transform: scale(1.08);
+}
+
+.card-body {
+  padding: 1.5rem 1.3rem 1.8rem;
+  text-align: center;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.3rem;
+}
+
+.role {
+  font-size: 0.85rem;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.8rem;
+}
+
+.bio {
+  font-size: 0.92rem;
+  color: #000000;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #000000;
+  font-size: 0.95rem;
+  background: #eaadcf;
+}
