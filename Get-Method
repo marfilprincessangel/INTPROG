@@ -1,0 +1,18 @@
+<?php
+$search = trim($_GET['search'] ?? '');
+
+if ($search !== '') {
+    $members = array_filter($members, function ($member) use ($search) {
+        return stripos($member['name'], $search) !== false;
+    });
+}
+?>
+
+GET form:
+
+<form method="get" action="index.php" class="search-form">
+    <label for="search">Find a member</label>
+    <input type="search" id="search" name="search"
+        value="<?= htmlspecialchars($search) ?>" placeholder="Search by name">
+    <button type="submit">Search</button>
+</form>
