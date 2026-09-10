@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>GROUP<span>-</span>1</h1>
+    <p class="subtitle">1, 2, 3, Go kanya kanya na</p>
+    <div class="accent-line"></div>
+  </header>
+
+  <main>
+    <section class="request-panel">
+      <!-- Search -->
+      <form id="searchForm" class="search-form">
+        <label for="search">Find a member</label>
+        <input type="search" id="search" placeholder="Search by name">
+        <button type="submit">Search</button>
+      </form>
+
+      <!-- Send a message -->
+      <form class="post-form" onsubmit="alert('Message sent!'); return false;">
+        <label>Send a message</label>
+        <textarea placeholder="Enter your message" rows="3"></textarea>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+
+    <div id="member-container" class="team-grid"></div>
+  </main>
+
+  <footer>
+    © 2026 Group 1 · Built with HTML, CSS & JavaScript
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
