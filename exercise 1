@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Group Slayable | Group-1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>GROUP<span>-</span>1</h1>
+    <p class="subtitle">1, 2, 3, Go kanya kanya na</p> 
+    <div class="accent-line"></div>
+  </header>
+
+  <main>
+    <div class="team-grid">
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member1.jpeg" alt="Turingan, Miracle">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Turingan, Miracle</h2>
+          <p class="role">20 Years Old · Frontend</p>
+          <p class="bio">AY, AYY, AYYYYYYYYYYYYYYYYYY</p>
+        </div>
+      </article>
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member2.jpg" alt="Candava, Princess Xyrah">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Candava, Princess Xyrah</h2>
+          <p class="role"> Backend / 20</p>
+          <p class="bio">"AYY LAVEEEEEEET!!" </p>
+        </div>
+      </article> 
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member3.jpg" alt="Ramos, Kyla">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Ramos, Kyla</h2>
+          <p class="role">Web Designer / 20</p>
+          <p class="bio">"okay na to"</p>
+        </div>
+      </article>
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member4.jpg" alt="Ramirez, Kleine Cyrus">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Ramirez, Kleine Cyrus</h2>
+          <p class="role">Backend / 21</p>
+          <p class="bio">"ano"</p>
+        </div>
+      </article>
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member5.jpg" alt="Marfil, Angel">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Marfil, Angel</h2>
+          <p class="role">Database / 19</p>
+          <p class="bio">Geww</p>
+        </div>
+      </article>
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member6.jpg" alt="Pedida, Janelle">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Pedida, Janelle</h2>
+          <p class="role">Web Designer / 19</p>
+          <p class="bio">"Goodness Gracious"</p>
+        </div>
+      </article>
+
+      <article class="member-card">
+        <div class="photo-wrapper">
+          <img src="./member7.jpg" alt="Dela Rea, Nicole">
+        </div>
+        <div class="card-body">
+          <h2 class="name">Dela Rea, Nicole</h2>
+          <p class="role">Database / 19</p>
+          <p class="bio">"From this, To this"</p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Group 1 · Built with HTML & CSS
+  </footer>
+
+</body>
+</html>
